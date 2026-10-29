@@ -1,0 +1,29 @@
+{
+  "name": "Agenda Fácil",
+  "subtitle": "Reservas e atendimentos",
+  "plural": "agendamentos",
+  "singular": "Agendamento",
+  "fields": [
+    {
+      "key": "servico",
+      "label": "Serviço",
+      "type": "text"
+    },
+    {
+      "key": "cliente",
+      "label": "Cliente",
+      "type": "text"
+    },
+    {
+      "key": "status",
+      "label": "Status",
+      "type": "select",
+      "options": [
+        "Pendente",
+        "Confirmado",
+        "Concluído",
+        "Cancelado"
+      ]
+    }
+  ]
+}
