@@ -1,6 +1,6 @@
 # Agenda Fácil
 
-Reservas e atendimentos. Aplicação demonstrativa full stack com interface responsiva e API REST.
+Desenvolvi esta aplicação demonstrativa para organizar reservas e atendimentos. Ela reúne cadastro de registros, busca e indicadores em uma interface responsiva, com uma API REST em Node.js.
 
 ## Tecnologias
 
@@ -51,6 +51,3 @@ CRUD completo, busca, filtro, indicadores, exportação CSV, validação no serv
 
 **Projeto de portfólio, não produto pronto para produção.** Não possui login, permissões, banco SQL, integração com pagamentos, controle de concorrência entre múltiplas instâncias ou backup automático. Dados ficam no servidor em `data/records.json` (ignorado pelo Git). Em hospedagens efêmeras, os registros podem ser perdidos. Para produção, adicione banco de dados, autenticação e deploy com armazenamento persistente.
 
-## GitHub
-
-Crie um repositório com o nome `agenda-facil`, envie os arquivos e adicione screenshots da aplicação em execução. Não inclua dados pessoais reais.
